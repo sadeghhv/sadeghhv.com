@@ -43,6 +43,7 @@ footer{
 }
 
 p.copy{
+	color		: rgb(93, 93, 93);
 	padding-top	: 15px;
 }
 
@@ -56,7 +57,7 @@ nav.menu-org li{
 	cursor				: pointer;
 	text-align			: center;
 	-webkit-transform	: scale(1) rotate(0deg);
-	-webkit-transition	: background 500ms ease-in-out 2s;
+	-webkit-transition	: background 800ms ease-in-out 2s;
 	-moz-transform		: scale(1) rotate(0deg);
 	-o-transform		: scale(1) rotate(0deg);
 }
@@ -64,11 +65,11 @@ nav.menu-org li{
 nav.menu-org li:hover{
 	background-image	: url('images/bg-menu.png');
 	-webkit-transform	: scale(1) rotate(360deg);
-	-webkit-transition	: all 500ms ease-in-out;
+	-webkit-transition	: all 800ms ease-in-out;
 	-moz-transform		: scale(1) rotate(360deg);
-	-moz-transition		: all 500ms ease-in-out;
+	-moz-transition		: all 800ms ease-in-out;
 	-o-transform		: scale(1) rotate(360deg);
-	-o-transition		: all 500ms ease-in-out;
+	-o-transition		: all 800ms ease-in-out;
 	min-height	: 70px;
 	margin-top	: -7px;
 }
@@ -129,6 +130,11 @@ h1.sh{
 	text-transform	: capitalize;
 }
 
-.wd{
+h2.wd{
+	color			: rgb(212, 212, 212);
+	text-transform	: capitalize;
+}
+
+p{
 	color			: rgb(212, 212, 212);
 }
