@@ -130,11 +130,29 @@ h1.sh{
 	text-transform	: capitalize;
 }
 
-h2.wd{
+.wd{
 	color			: rgb(212, 212, 212);
 	text-transform	: capitalize;
 }
 
 p{
 	color			: rgb(212, 212, 212);
+}
+
+.gallery{
+	width			: 750px;
+	min-height		: 650px;
+}
+
+.gallery li {
+	float			: left;
+	margin-right	: 15px;
+	margin-top		: 15px;
+}
+
+.gallery li a {
+	display				: block;
+	border				: 8px solid #FAFAFA;
+	border-bottom-width	: 30px;
+	border-radius		: 2px;
 }
